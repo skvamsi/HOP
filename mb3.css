@@ -1,0 +1,411 @@
+.mb-div1{
+  display: none;
+  width: 100%;
+  height: 40px;
+  background-color: seagreen;
+}
+.mb-div1 i{
+  float: left;
+  font-size: 1.3em;
+  margin-left: 8.5%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+.mb-div2{
+  display: none;
+  width: 100%;
+  height: 30px;
+  background-color: mediumpurple;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.mb-div3 {
+  width: 70%;
+  height: 70%;
+  
+  position: absolute;
+  left: 15%;
+  top:15%;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.8);
+  filter: brightness(0.9);
+  border-radius: 1em;
+}
+.mb-div4{
+  width: 100%;
+  height: 33%;
+  
+  position: relative;
+  margin-bottom: 0.6%;
+  font-size: 1.1em;
+  font-weight: 520;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+.mb-div4 label{
+  position: relative;
+  top: 10%;
+}
+.mb-div5{
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 40%;
+ 
+  display: flex;
+}
+.mb-div6 {
+  width: 33%;
+  height: 100%;
+  position: relative;
+  margin-left: 0.5%;
+
+  background-color: seagreen;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+
+}
+.mb-div6 label{
+  position: relative;
+  top: 33%;
+}
+  #mb4{
+  display: none;
+}
+#mb7{
+  display: none;
+}
+.mb-div7{
+  display: none;
+  width: 60%;
+  height: 37%;
+  position: absolute;
+  left: 39%;
+  top: 5%;
+  border-radius: 1em;
+}
+#smd{
+  font-size: 1.5em;
+  position: relative;
+  left: 20px;
+  top: 0.5em;
+  display: none;
+  cursor: pointer;
+}
+#smd-people{
+  width: 75%;
+  position: relative;
+  left: 10%;
+  background-color: lightblue;
+  border-radius: 1em;
+  display: none;
+}
+#oc-id14{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  #mb4.visible {
+    display: block;
+  }
+  #smd-people.visible{
+    display: block;
+  }
+  #mb7.visible{
+    display: block;
+  }
+  
+}
+
+@media (max-width: 767.98px) {
+  /* CSS styles for mobile devices */
+  #mb1{
+    display: none;
+  }
+  #mb2{
+    display: none;
+  }
+  #mb3{
+    display: none;
+  }
+
+  .mb-div1{
+    display: block;
+  }
+  .mb-div2{
+    display: block;
+  }
+  .full-height1{
+  height: calc(100vh - 70px);
+  background-color: #000;
+
+  }
+  .full-height2{
+    height: calc(100vh - 70px);
+    background-color: lightsteelblue;
+  }
+
+  .full-height3{
+    height: calc(100vh - 70px);
+    background-color: rgba(0, 0, 0, 1.0);
+  }
+  #mb5{
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+  }
+   .flip-card {
+    width: 70%;
+    height: 35.5%;
+    position: relative;
+    left: 12%;
+  }
+  .flip-card1 {
+    width: 45%;
+    height: 50%;
+    position: relative;
+    left: 0%;
+    margin-bottom: 3%;
+
+  }
+  .flip-card2 {
+    width: 45%;
+    height: 50%;
+    position: relative;
+    left: 0%;
+    margin-bottom: 3%;
+  }
+  .flip-card5{
+    width: 100%;
+    height: 37.5%;
+    position: relative;
+    left: 0%;
+    margin-left: 0%;
+  }
+  .flip-card6{
+    width: 87%;
+    height: 60%;
+    position:relative;
+    left: 5%;
+    margin-left: 0%;
+    margin-bottom: 10px;
+  }
+  .inner-div72{
+    width: 51%;
+    position: relative;
+    left: 0%;
+  }
+  .inner-div45{
+    width: 50%;
+    position: absolute;
+    left: 53.5%;
+  }
+  .inner-div23{
+    display: none;
+  }
+  .inner-div22{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .inner-div24{
+    width: 37%;
+  height: 37%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.8;
+  position: absolute;
+  top: 5%;
+  left: 5px; 
+  }
+  .inner-div24 img{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+  }
+  .inner-div25{
+     width: 100%;
+    height: 55%;
+    position: absolute;
+    left: 0%;
+    top: 44%;
+  }
+  .mb-div7{
+    display: block;
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+  .inner-div26{
+    display: none;
+  }
+  .inner-div60{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    left: 5%;
+  }
+  .inner-div61{
+  width: 70%;
+  height: 5%;
+
+  position: relative;
+  left: 15%;
+  top: 2%;
+  font-weight: 500;
+  }
+  .inner-div62{
+    width: 100%;
+    position: relative;
+    left: 0%;
+  }
+  .inner-div67 video{
+    width: 75%;
+  }
+  .inner-div67 img{
+    width: 75%;
+  }
+  .inner-div71 img{
+    width: 75%;
+  }
+.inner-div71 video{
+  width: 75%;
+}
+  #smd{
+  display: block;
+}
+.inner-div29{
+  width: 80%;
+  height: 14%;
+  position: relative;
+  left: 10%;
+  top: 10px;
+}
+.inner-div29 img{
+  width: 18%;
+}
+.inner-div27{
+  height: 13%;
+}
+.inner-div27 input{
+  width: 81.3%;
+  height:9%;
+}
+.inner-div28{
+  height: 9%;
+}
+.inner-div63{
+  width: 100%;
+  height: 20%;
+}
+.inner-div63 button{
+   width: 5%;
+  height: 34%;
+  top: 10%;
+}
+.mb-div10 {
+  width: 100%;
+  height: 34%;
+  background-color: green;
+  position: absolute;
+  left:0%;
+  margin-left: 0%;
+}
+.mb-div11{
+  width: 70%;
+  height: 65%;
+  background-color: royalblue;
+  position: absolute;
+  left: 15%;
+  top: 34%;
+  border-radius: 1em;  
+}
+.mb-div12{
+  width: 200px;
+  height:200px;
+  background-color: lightsteelblue;
+  position: absolute;
+  left: 29.5%;
+  top: 13%;
+  border-radius: 50%;
+  border: 1px solid white;  
+}
+.mb-div13{
+  width: 80%;
+  height: 8%;
+  background-color: lightgray;
+  position: relative;
+  left: 10%;
+  top: 22.5%;
+  border-radius: 1em;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.8);
+  filter: brightness(0.9);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  overflow: none;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+.mb-div14 {
+  width: 80%;
+  height: 56%;
+  position: relative;
+  left: 10%;
+  top: 25%;
+  background-color: lightgray;
+  border-radius: 1em;
+}
+.mb-div15 {
+  width: 90%;
+  height: 8%;
+ 
+  position: relative;
+  left: 5%;
+  display: flex;
+  top: 26.5%;
+}
+.mb-div16 {
+  width: 48%;
+  height: 80%;
+  background-color: darkseagreen;
+  position: relative;
+  border-radius: 1em;
+  margin-left: 1.5%;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+  filter: brightness(0.9);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  overflow: none;
+  font-weight: 500;
+  font-size: 1em;
+  color: red;
+  cursor: pointer;
+}
+.mb-div17{
+  width: 100%;
+  height: 50%;
+  background-color: seagreen;
+  position: relative;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.mb-div18 {
+  width: 80%;
+  height: 50%;
+  position: relative;
+  left: 10%;
+  font-weight: 500;
+  background-color: sandybrown;
+}
+
+}
